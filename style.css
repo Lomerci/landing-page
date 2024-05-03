@@ -29,3 +29,66 @@ a {
 .footer {
     text-align: center;
 }
+
+.container {
+    padding: 30px 10px;
+    background-color: #FFBB70;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.welcome {
+    flex-basis: 50%;
+    color: white;
+    margin-right: 45px;
+}
+
+.info {
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 70px;
+    margin-bottom: 30px;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-box {
+    flex: 0 1 100px;
+    text-align: center;
+}
+
+.icon-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.icon-box figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.quote {
+    background-color: lightpink;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+q {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    margin-top: 20px;
+    align-self: flex-end;
+}
