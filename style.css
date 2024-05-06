@@ -71,8 +71,9 @@ a {
 .info {
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
     padding: 0px 70px;
-    max-width: 700px;
+    max-width: 850px;
     margin: auto;
     margin-bottom: 50px;
 }
